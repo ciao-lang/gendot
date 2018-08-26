@@ -16,6 +16,7 @@
 % TODO: see library(graph_to_tex)
 
 :- use_module(library(pathnames),  [path_splitext/3]).
+:- use_module(engine(stream_basic)).
 :- use_module(library(format), [format/3]).
 
 :- pred gendot(+L,+Filename,+Type) # "Generates a dot file from a list
